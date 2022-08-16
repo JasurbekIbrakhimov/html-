@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  padding: 40px 80px;
+}
+/* ==== header boshlandi  === */
+.header__top {
+  color: #c9c9c9;
+}
+.header__navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.header__item {
+  display: flex;
+  gap: 30px;
+}
+.header__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #222222;
+  transition: all 0.5s ease-in-out;
+}
+.header__link:hover {
+  color: #09a66d;
+}
+.header__img {
+  width: 56px;
+  height: 56px;
+}
+.hambur{
+  display: none;
+  width: 40px;
+  height: 40px;
+}
+.header__search {
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+.header__icon1 {
+  background-color: #f3fbf8;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+.header__icon2 {
+  background-color: #f3fbf8;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+.meva {
+  position: absolute;
+  left: 95px;
+  top: 12px;
+}
+.header__btn {
+  padding: 14px 40px;
+  background: #09a66d;
+  border-radius: 8px;
+  border: 1px solid #09a66d;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.header__btn:hover {
+  background-color: transparent;
+  color: #09a66d;
+  border: 1px solid #09a66d;
+}
+.header__bottom {
+  background-color: #f3fbf8;
+  height: 950px;
+}
+.bottom__img1 {
+  position: absolute;
+  width: 600px;
+  height: 390px;
+  top: 110px;
+}
+.header__title {
+  padding-top: 90px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  color: #222222;
+  position: relative;
+  z-index: 2;
+}
+.header__text {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #555555;
+  padding-bottom: 57px;
+}
+.text {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+.text::after {
+  content: "";
+  background-image: url(../icon/bottom_icon.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  background-color: #09a66d;
+  border-radius: 50%;
+  padding: 8px 17px;
+  margin-left: 17px;
+  cursor: pointer;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.left__img {
+  margin-top: 30px;
+  width: 860px;
+  height: 465px;
+}
+.right__item {
+  text-align: right;
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 5px 10px 5px 76px;
+  position: relative;
+}
+.right__item p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+}
+.right__item span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+.right__item img {
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  width: 45px;
+  height: 45px;
+}
+/* ==== header tugadi === */
+
+/* ==== best boshlandi ====  */
+.best {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.imgs {
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  z-index: -1;
+}
+.best__top {
+  margin-top: 60px;
+}
+.best__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  color: #222222;
+}
+.best__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+  width: 600px;
+  padding-bottom: 57px;
+}
+.best__bottom {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 56px;
+  padding: 30px;
+}
+.best__img {
+  width: 70px;
+  height: 70px;
+}
+.best__content {
+  width: 350px;
+}
+.best__content_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #222222;
+  padding-bottom: 10px;
+}
+.best__content_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+}
+.active {
+  background: #f3fbf8;
+}
+/* ==== best tugadi ====  */
+/* ==== explor boshlandi ====  */
+.explor {
+  background: rgba(9, 166, 109, 0.05);
+  padding-top: 80px;
+  margin-top: 130px;
+  height: 800px;
+}
+.explor__menu {
+  display: flex;
+  gap: 50px;
+}
+.explor__img {
+  width: 600px;
+  height: 600px;
+}
+.explor__content {
+  position: relative;
+}
+.explor__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  color: #222222;
+}
+.explor__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #555555;
+  padding-bottom: 67px;
+  padding-top: 24px;
+}
+.explor__img2 {
+  position: absolute;
+  top: 335px;
+}
+/* ==== explor tugadi ====  */
+/* ==== about boshlandi ====  */
+.about {
+  padding-top: 110px;
+  display: flex;
+  gap: 90px;
+  padding-bottom: 100px;
+}
+.about__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  color: #222222;
+}
+.about__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #555555;
+  padding: 20px 0 30px 0;
+}
+.about__subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222;
+}
+.about__content_img1 {
+  width: 152.81px;
+  height: 23.15px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 180px;
+}
+/* ==== about tugadi ====  */
+/* ==== simple boshlandi ====  */
+.simple__menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+.simlpe__img {
+  width: 259.45px;
+  height: 496.06px;
+}
+.simlpe__content {
+  width: 630px;
+}
+.simple__subtitle {
+  display: inline-block;
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  background-color: #f3fbf8;
+  color: #333333;
+  padding: 13px 23px;
+  border-radius: 30px;
+}
+.simple__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 90px;
+  color: #222222;
+}
+.simple__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  color: #555555;
+  padding: 30px 0 40px 0;
+}
+.simple .simlpe__content img {
+  padding-right: 25px;
+}
+/* ==== simple tugadi ====  */
+/* ==== footer boshlamdi ==== */
+.footer {
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+.footer__inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__logo {
+  width: 30%;
+}
+.footer__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+  padding-top: 30px;
+}
+.footer__content {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #222222;
+}
+.footer__list {
+  margin-top: 40px;
+
+}
+.footer__list-item {
+  margin-top: 20px;  
+
+}
+.footer__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #555555;
+}
+.footer__social{
+  margin-top:30px;
+  padding-right: 30px;
+}
+/* ==== footer tugadi ==== */
